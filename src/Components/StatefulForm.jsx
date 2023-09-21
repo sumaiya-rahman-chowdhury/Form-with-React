@@ -42,6 +42,7 @@ const StatefulForm = () => {
                 <input onChange={handlePasswordChange} type="password" className='border-black border-2' name='password' required/> <br />
                 <input onChange={handleEmailChange} type="email" className='border-black border-2' name='email'/> <br />
                 <button>Submit</button>
+                
             </form>
         </div>
         </div>
